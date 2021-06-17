@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply uppercase font-bold px-10 py-4 rounded;
+}
+
+header {
+  height: 600px;
+}
+
+.pricing-card {
+  height: 450px;
+  
+}
+
+
+.pricing-card.pricing-card--main{
+  height: 550px;
+}
+
+
+footer {
+  background-color: #061D36;
+}
