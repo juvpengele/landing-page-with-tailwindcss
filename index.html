@@ -13,26 +13,31 @@
     <body>
         <header class="bg-gradient-to-r from-blue-900 to-blue-500 text-white flex">
             <div class="container mx-auto py-10 flex flex-col flex-1">
-                <nav class="flex justify-between">
+                <nav class="flex justify-between relative">
                     <a href="#">
                         <img src="/assets/logo.svg" alt="Logo">
                     </a>
-                    <div>
-                        <a href="#" class="px-4 hover:font-bold">Hosting</a>
-                        <a href="#" class="px-4 hover:font-bold">Domain</a>
-                        <a href="#" class="px-4 hover:font-bold">Support</a>
-                        <a href="#" class="px-4 hover:font-bold">Affilates</a>
-                        <a href="#" class="pl-4 hover:font-bold">Partnership</a>
+                    <input type="checkbox" id="menu-toggler">
+                    <span class="text-white text-3xl lg:hidden z-50 " id="menu-bars">
+                        <i class="las la-bars"></i>
+                        <i class="las la-times hidden"></i>
+                    </span>
+                    <div class="hidden pl-10 lg:pl-0 lg:flex menu">
+                        <a href="#" class="py-5 lg:py-0 px-4 text-2xl lg:text-base hover:font-bold">Hosting</a>
+                        <a href="#" class="py-5 lg:py-0 px-4 text-2xl lg:text-base">Domain</a>
+                        <a href="#" class="py-5 lg:py-0 px-4 text-2xl lg:text-base">Support</a>
+                        <a href="#" class="py-5 lg:py-0 px-4 text-2xl lg:text-base">Affilates</a>
+                        <a href="#" class="py-5 lg:py-0 px-4 text-2xl lg:text-base">Partnership</a>
                     </div>
                 </nav>
                 <div class="flex py-10 items-center flex-1">
-                    <div class="w-1/2">
-                        <h1 class="font-bold text-5xl">Trust your site to the world's #1 web host</h1>
+                    <div class="w-full lg:w-1/2">
+                        <h1 class="font-bold text-3xl lg:text-5xl">Trust your site to the world's #1 web host</h1>
                         <p class="py-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
                         <a href="#" class="mt-5 btn bg-yellow-600 flex inline-flex">get started</a>
                     </div>
-                    <div class="w-1/2 flex justify-end">
-                        <img src="/assets/server.svg" alt="">
+                    <div class="w-0 lg:w-1/2 flex justify-end">
+                        <img src="/assets/server.svg" alt="" class="hero__img hidden lg:flex">
                     </div>
                     
                 </div>
@@ -40,10 +45,10 @@
         </header>
         <section class="bg-blue-100">
             <div class="container mx-auto py-14">
-                <h2 class="font-bold text-3xl text-center py-10">More than +3500 Use our services</h2>
-                <div class="flex py-10 -mx-3">
-                    <div class="w-1/3 px-3">
-                        <div class="bg-white  rounded-2xl flex flex-col justify-center items-center px-10 py-20">
+                <h2 class="font-bold text-2xl lg:text-3xl text-center py-10">More than +3500 Use our services</h2>
+                <div class="flex flex-col lg:flex-row  py-10 mx-0 lg:-mx-3">
+                    <div class="w-full lg:w-1/3 px-3 my-4 lg:my-0">
+                        <div class="bg-white rounded-2xl flex flex-col justify-center items-center px-10 py-20">
                             <img src="/assets/customers/man.svg" alt="" class="rounded-full mb-5">
                             <span class="text-gray-900 font-bold text-lg">
                                 John Doe
@@ -54,7 +59,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="w-1/3 px-3">
+                    <div class="w-full lg:w-1/3 px-3 my-4 lg:my-0">
                         <div class="bg-white  rounded-2xl flex flex-col justify-center items-center px-10 py-20">
                             <img src="/assets/customers/woman1.svg" alt="" class="rounded-full mb-5">
                             <span class="text-gray-900 font-bold text-lg">
@@ -66,7 +71,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="w-1/3 px-3">
+                    <div class="w-full lg:w-1/3 px-3 my-4 lg:my-0">
                         <div class="bg-white  rounded-2xl flex flex-col justify-center items-center px-10 py-20">
                             <img src="/assets/customers/woman2.svg" alt="" class="rounded-full mb-5">
                             <span class="text-gray-900 font-bold text-lg">
@@ -80,38 +85,38 @@
                     </div>
                 </div>
     
-                <div class="flex -mx-3">
-                    <div class="w-1/6 px-3">
+                <div class="flex flex-wrap mx-0 lg:-mx-3">
+                    <div class="w-1/2 lg:w-1/6 px-3 my-2 lg:my-0">
                         <div class="bg-white flex flex-col items-center justify-center py-6 rounded-2xl">
                             <img src="/assets/company-logo.svg" alt="">
                             Company Name
                         </div>
                     </div>
-                    <div class="w-1/6 px-3">
+                    <div class="w-1/2 lg:w-1/6 px-3 my-2 lg:my-0">
                         <div class="bg-white flex flex-col items-center justify-center py-6 rounded-lg">
                             <img src="/assets/company-logo.svg" alt="">
                             Company Name
                         </div>
                     </div>
-                    <div class="w-1/6 px-3">
+                    <div class="w-1/2 lg:w-1/6 px-3 my-2 lg:my-0">
                         <div class="bg-white flex flex-col items-center justify-center py-6 rounded-lg">
                             <img src="/assets/company-logo.svg" alt="">
                             Company Name
                         </div>
                     </div>
-                    <div class="w-1/6 px-3">
+                    <div class="w-1/2 lg:w-1/6 px-3 my-2 lg:my-0">
                         <div class="bg-white flex flex-col items-center justify-center py-6 rounded-lg">
                             <img src="/assets/company-logo.svg" alt="">
                             Company Name
                         </div>
                     </div>
-                    <div class="w-1/6 px-3">
+                    <div class="w-1/2 lg:w-1/6 px-3 my-2 lg:my-0">
                         <div class="bg-white flex flex-col items-center justify-center py-6 rounded-lg">
                             <img src="/assets/company-logo.svg" alt="">
                             Company Name
                         </div>
                     </div>
-                    <div class="w-1/6 px-3">
+                    <div class="w-1/2 lg:w-1/6 px-3 my-2 lg:my-0">
                         <div class="bg-white flex flex-col items-center justify-center py-6 rounded-lg">
                             <img src="/assets/company-logo.svg" alt="">
                             Company Name
@@ -127,8 +132,8 @@
                 <p class="text-center text-lg mt-4">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>
-                <div class="flex pt-16">
-                    <div class="w-1/3 px-3">
+                <div class="flex flex-col lg:flex-row pt-16">
+                    <div class="w-full lg:w-1/3 px-3 py-4 lg:py-0">
                         <div class="bg-white text-blue-900 flex flex-col items-center justify-center
                             px-14 py-24 rounded-2xl
                         ">
@@ -141,7 +146,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="w-1/3 px-3">
+                    <div class="w-full lg:w-1/3 px-3 py-4 lg:py-0">
                         <div class="bg-white text-blue-900 flex flex-col items-center justify-center
                             px-14 py-24 rounded-2xl
                         ">
@@ -154,7 +159,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="w-1/3 px-3">
+                    <div class="w-full lg:w-1/3 px-3 py-4 lg:py-0">
                         <div class="bg-white text-blue-900 flex flex-col items-center justify-center
                             px-14 py-24 rounded-2xl
                         ">
@@ -174,11 +179,11 @@
 
         <section class="py-32">
             <div class="container mx-auto">
-                <div class="flex flex-wrap">
-                    <div class="w-1/2 px-10 py-10 font-bold flex justify-center">
+                <div class="flex flex-col lg:flex-row flex-wrap">
+                    <div class="w-full lg:w-1/2 px-10 py-10 font-bold flex justify-center">
                         <h2 class="text-4xl w-4/5 leading-normal">Level Up your web hosting with these must-have.</h2>
                     </div>
-                    <div class="w-1/2 px-10 py-5 flex justify-center items-center">
+                    <div class="w-full lg:w-1/2 px-10 py-5 flex justify-center items-center">
                         <div class="text-8xl w-2/5 flex justify-center text-yellow-500">
                             <i class="las la-cog"></i>
                         </div>
@@ -190,7 +195,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="w-1/2 px-10 py-5 flex justify-center items-center">
+                    <div class="w-full lg:w-1/2 px-10 py-5 flex justify-center items-center">
                         <div class="text-8xl w-2/5 flex justify-center text-yellow-500">
                             <i class="las la-shield-alt"></i>
                         </div>
@@ -202,7 +207,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="w-1/2 px-10 py-5 flex justify-center items-center">
+                    <div class="w-full lg:w-1/2 px-10 py-5 flex justify-center items-center">
                         <div class="text-8xl w-2/5 flex justify-center text-yellow-500">
                             <i class="las la-tools"></i>
                         </div>
@@ -223,8 +228,8 @@
         <section class="bg-gradient-to-r from-blue-900 to-blue-500 text-white py-20">
             <div class="container mx-auto">
                 <h2 class="text-4xl text-center font-bold my-10">So what's in Shared Hosting? A whole lot.</h2>
-                <div class="my-10 flex text-blue-900 items-center">
-                    <div class="pricing-card bg-white flex flex-col w-1/3 px-10 py-14 rounded-xl text-center">
+                <div class="my-10 flex flex-col lg:flex-row text-blue-900 items-center">
+                    <div class="pricing-card bg-white w-full lg:w-1/3 my-4 lg:my-0 flex flex-col px-10 py-14 rounded-xl text-center">
                         <h6 class="font-bold text-2xl">Starter Package</h6>
                         <span>Blogging Website</span>
                         <p class="font-bold text-4xl flex-1 flex justify-center items-center">
@@ -235,7 +240,7 @@
                         </div>
                        
                     </div>
-                    <div class="pricing-card pricing-card--main shadow-lg bg-yellow-600 text-white  flex flex-col w-1/3 px-10 py-14 rounded-xl text-center">
+                    <div class="pricing-card pricing-card--main shadow-lg bg-yellow-600 text-white  w-full lg:w-1/3 my-4 lg:my-0 flex flex-col px-10 py-14 rounded-xl text-center">
                         <h6 class="font-bold text-2xl">Business Package</h6>
                         <span>E-commerce Website</span>
                         <p class="font-bold text-4xl flex-1 flex justify-center items-center">
@@ -246,7 +251,7 @@
                         </div>
                        
                     </div>
-                    <div class="pricing-card bg-white flex flex-col w-1/3 px-10 py-14 rounded-xl text-center">
+                    <div class="pricing-card bg-white flex flex-col  w-full lg:w-1/3 my-4 lg:my-0  w-1/3 px-10 py-14 rounded-xl text-center">
                         <h6 class="font-bold text-2xl">Advanced Package</h6>
                         <span>Custom Website</span>
                         <p class="font-bold text-4xl flex-1 flex justify-center items-center">
@@ -264,12 +269,12 @@
         <section class="py-32">
             <div class="container mx-auto">
                 <h6 class="text-center text-4xl font-bold my-6">Hosting from Another world</h6>
-                <p class="text-center w-1/2 mx-auto text-lg leading-8">
+                <p class="text-center w-full lg:w-1/2 mx-auto text-lg leading-8">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec sagittis dolor. Maecenas quam nunc, tincidunt quis facilisis ut, faucibus eget 
                 </p>
                 <div class="flex items-center justify-center">
                 
-                    <div class="flex items-center">
+                    <div class="flex flex-wrap items-center">
                         <ul class="px-10">
                             <li class="text-2xl my-4">
                                 <span class="text-blue-500"><i class="las la-check-circle"></i></span>
@@ -300,7 +305,7 @@
                                 <span>DDoS and Malware</span>
                             </li>
                         </ul>
-                        <img src="/assets/data-host.svg" alt="" class="w-100">
+                        <img src="/assets/data-host.svg" alt="" class="hidden lg:flex w-100">
                     </div>
                 </div>
             </div>
@@ -308,8 +313,8 @@
 
         <footer class="text-gray-400">
             <div class="container mx-auto py-10">
-                <div class="flex py-8">
-                    <div class="w-1/3">
+                <div class="flex flex-col lg:flex-row py-8">
+                    <div class="w-full lg:w-1/3">
                         <img src="/assets/logo.svg" alt="Logo" class="mb-10">
                         <p class="mb-6 leading-10">I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper matti pibus leo.</p>
                         <div>
@@ -318,8 +323,8 @@
                             <span><i class="lab la-pinterest"></i></span>
                         </div>
                     </div>
-                    <div class="w-2/3 flex">
-                        <div class="w-1/3 flex flex-col px-16">
+                    <div class="w-full lg:w-2/3 flex flex-col lg:flex-row">
+                        <div class="w-1/3 flex flex-col px-0 lg:px-16 py-5 lg:py-0">
                             <span class="text-lg font-bold text-white mb-6">Get Started</span>
                             <ul>
                                 <li class="py-4">Tutorials</li>
@@ -327,7 +332,7 @@
                                 <li class="py-4">Guides</li>
                             </ul>
                         </div>
-                        <div class="w-1/3 flex flex-col px-16">
+                        <div class="w-1/3 flex flex-col px-0 lg:px-16 py-5 lg:py-0">
                             <span class="text-lg font-bold text-white mb-6">Get Started</span>
                             <div>
                                 <ul>
@@ -338,7 +343,7 @@
                             </div>
                             
                         </div>
-                        <div class="w-1/3 flex flex-col px-16">
+                        <div class="w-1/3 flex flex-col px-0 lg:px-16 py-5 lg:py-0">
                             <span class="text-lg font-bold text-white mb-6">Get Started</span>
                             <ul>
                                 <li class="py-4">Tutorials</li>
