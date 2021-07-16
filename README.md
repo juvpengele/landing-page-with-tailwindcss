@@ -29,15 +29,15 @@ landing-page-with-tailwindcss$ yarn dev
 
 ## Screens 
 
-[Screenshot 1](https://i.imgur.com/spguSn0.png)
+<img src="https://i.imgur.com/spguSn0.png" />
 
-[Schrrenshot 2](https://i.imgur.com/dwb3tT6.png)
+<img src="https://i.imgur.com/dwb3tT6.png" />
 
-[Screenshot 3](https://i.imgur.com/8gbru1I.png)
+<img src="https://i.imgur.com/8gbru1I.png" />
 
-[Screenshot 4](https://i.imgur.com/6tVv8Vt.png)
+<img src="https://i.imgur.com/6tVv8Vt.png" />
 
-[Screenshot 5](https://i.imgur.com/2KPLsfQ.png)
+<img src="https://i.imgur.com/2KPLsfQ.png" />
 
 License 
 MIT
