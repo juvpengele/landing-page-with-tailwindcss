@@ -2,80 +2,77 @@
 @tailwind components;
 @tailwind utilities;
 
-.btn {
-  @apply uppercase font-bold px-8 py-3 rounded;
+
+.hero__img {
+    width : 30rem;
 }
 
-@screen lg {
-  .btn {
-    @apply uppercase font-bold px-10 py-4 rounded;
-  }
-}
 
-header {
-  height: 600px;
+.bg-blue-custom {
+    @apply bg-gradient-to-r from-blue-900 to-blue-500;
 }
 
 .pricing-card {
-  height: 450px;
-  
+    height: 450px;
+    @apply text-blue-900;
 }
 
-
-.pricing-card.pricing-card--main{
-  height: 550px;
+.pricing-card--main {
+    height: 550px;
+    @apply text-white;
 }
 
-.hero__img {
-  width: 30rem;
+.btn {
+    @apply  py-4 px-10 uppercase font-bold rounded;
+}
+
+.btn-white {
+    @apply border border-blue-900;
 }
 
 footer {
-  background-color: #061D36;
+    background: #061d36;
 }
 
 #menu-toggler {
-  position: absolute;
-  right: 0;
-  width: 50px;
-  height: 50px;
-  z-index: 999;
-  opacity: 0;
+    z-index: 999;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 1.5rem;
+    top: 1.5rem;
+    opacity: 0;
 }
 
-
-#menu-toggler ~ #menu-bars > .la-bars {
-  display: flex;
-}
-
-#menu-toggler ~ #menu-bars > .la-times {
-  display: none;
-}
-
-#menu-toggler:checked {
-  position: fixed;
-  right: 1rem;
-}
 
 #menu-toggler:checked ~ .menu {
-  display: flex;
-  position: fixed;
-  width: 100vw;
-  height: 100vh;
-  top: 0;
-  left: 0;
-  @apply bg-gradient-to-r from-blue-900 to-blue-500 justify-center flex-col;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-start;
+    padding-left: 2rem;
+    @apply bg-gradient-to-r from-blue-900 to-blue-500;
+    
 }
 
-#menu-toggler:checked ~ #menu-bars {
-  position: fixed;
-  right: 1rem;
+
+.menu-bars {
+    z-index: 100;
 }
 
-#menu-toggler:checked ~ #menu-bars > .la-bars {
-  display: none;
+
+
+#menu-toggler:checked ~ .menu-bars > .la-times {
+    display:flex;
 }
 
-#menu-toggler:checked ~ #menu-bars > .la-times {
-  display: flex;
+
+
+#menu-toggler:checked ~ .menu-bars > .la-bars {
+    display:none ;
 }
