@@ -2,80 +2,74 @@
 @tailwind components;
 @tailwind utilities;
 
-
 .hero__img {
-    width : 30rem;
+    width: 30rem;
 }
 
-
-.bg-blue-custom {
-    @apply bg-gradient-to-r from-blue-900 to-blue-500;
+.bg-gradient-custom {
+    @apply bg-gradient-to-r from-blue-900 to-blue-500 text-white;
 }
 
 .pricing-card {
     height: 450px;
-    @apply text-blue-900;
 }
 
-.pricing-card--main {
+.pricing-card-main {
     height: 550px;
-    @apply text-white;
 }
 
 .btn {
-    @apply  py-4 px-10 uppercase font-bold rounded;
-}
-
-.btn-white {
-    @apply border border-blue-900;
+    @apply uppercase font-bold px-10 py-4 rounded inline-flex;
 }
 
 footer {
-    background: #061d36;
+    background-color: #061d36;
 }
 
 #menu-toggler {
     z-index: 999;
     width: 50px;
     height: 50px;
-    position: fixed;
-    right: 1.5rem;
-    top: 1.5rem;
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
     opacity: 0;
 }
 
+#menu-bars {
+    position: absolute;
+    top: 2.1rem;
+    right: 2.1rem;
+}
+
+#menu-toggler:checked {
+    position: fixed;
+}
 
 #menu-toggler:checked ~ .menu {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
     position: fixed;
     top: 0;
     left: 0;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items: flex-start;
-    padding-left: 2rem;
+    right: 0;
+    bottom: 0;
     @apply bg-gradient-to-r from-blue-900 to-blue-500;
     
 }
 
-
-.menu-bars {
+#menu-toggler:checked ~ #menu-bars > .close {
+    display: flex;
     z-index: 100;
-    position: absolute;
-    right: 2.5rem;
-    top: 2.5rem;
+    position: fixed;
+    top: 2.1rem;
+    right: 2.1rem;
 }
 
-
-
-#menu-toggler:checked ~ .menu-bars > .la-times {
-    display:flex;
-}
-
-
-
-#menu-toggler:checked ~ .menu-bars > .la-bars {
-    display:none ;
+#menu-toggler:checked ~ #menu-bars > .bars {
+    display: none;
 }

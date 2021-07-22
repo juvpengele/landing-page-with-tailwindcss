@@ -1,439 +1,373 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Landing Page With Tailwind</title>
-  <link rel="stylesheet" href="/style.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet"
-    href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
-</head>
-
-<body>
-  <header class="bg-blue-custom text-white pt-10 pb-20">
-    <div class="container px-4 lg:px-0 mx-auto">
-      <nav class="flex justify-between pb-10">
-        <a href="/">
-          <img src="/assets/logo.svg" alt="">
-        </a>
-        <input type="checkbox" id="menu-toggler" class="lg:hidden">
-        <span class="menu-bars flex  lg:hidden text-2xl relative right-4">
-          <i class="las la-bars"></i>
-          <i class="las la-times hidden"></i>
-        </span>
-        <div class="hidden lg:flex menu">
-          <a href="#" class="text-3xl py-4 lg:py-0 lg:text-base ">Hosting</a>
-          <a href="#" class="text-3xl py-4 lg:py-0 lg:text-base lg:pl-8">Domain</a>
-          <a href="#" class=" text-3xl py-4 lg:py-0 lg:text-base lg:pl-8">Support</a>
-          <a href="#" class="text-3xl py-4 lg:py-0 lg:text-base  lg:pl-8">Affilates</a>
-          <a href="#" class="text-3xl py-4 lg:py-0 lg:text-base  lg:pl-8">Partenership</a>
-        </div>
-      </nav>
-      <div class="pt-10 pb-14 flex items-center ">
-        <div class="w-full lg:w-1/2">
-          <h1 class="text-4xl lg:text-5xl font-bold">Trust your site to the world's #1 web host</h1>
-          <p class="my-6">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.
-          </p>
-          <a href="#" class="inline-flex bg-yellow-600 btn ">get started</a>
-        </div>
-        <div class="w-0 lg:w-1/2 flex justify-end">
-          <img src="/assets/server.svg" alt="" class="hero__img hidden lg:flex" >
-        </div>
-      </div>
-    </div>
-  </header>
-
-  <section class="bg-blue-100 py-20">
-    <div class="container px-4 lg:px-0 mx-auto">
-      <h2 class="text-center font-bold text-2xl lg:text-3xl mb-16">More than +3500 Use our services</h2>
-      <div class="flex flex-col lg:flex-row -mx-4">
-        <div class="px-4 py-2 lg:py-0">
-          <div class="bg-white py-24 px-10 rounded-xl flex flex-col items-center">
-            <img src="/assets/customers/man.svg" alt="" class="rounded-full">
-            <span class="mt-5 font-bold text-blue-900 text-lg">
-              John Doe
-            </span>
-            <small class="text-gray-600">
-              Customer
-            </small>
-            <p class="text-center leading-10 mt-6">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Sed nec sagittis dolor. Maecenas quam nunc, tincidunt quis
-              facilisis ut.
-            </p>
-          </div>
-        </div>
-        <div class="px-4 py-2 lg:py-0">
-          <div class="bg-white py-24 px-10 rounded-xl flex flex-col items-center">
-            <img src="/assets/customers/woman2.svg" alt="" class="rounded-full">
-            <span class="mt-5 font-bold text-blue-900 text-lg">
-              John Doe
-            </span>
-            <small class="text-gray-600">
-              Customer
-            </small>
-            <p class="text-center leading-10 mt-6">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Sed nec sagittis dolor. Maecenas quam nunc, tincidunt quis
-              facilisis ut.
-            </p>
-          </div>
-        </div>
-        <div class="px-4 py-2 lg:py-0">
-          <div class="bg-white py-24 px-10 rounded-xl flex flex-col items-center">
-            <img src="/assets/customers/woman1.svg" alt="" class="rounded-full">
-            <span class="mt-5 font-bold text-blue-900 text-lg">
-              John Doe
-            </span>
-            <small class="text-gray-600">
-              Customer
-            </small>
-            <p class="text-center leading-10 mt-6">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Sed nec sagittis dolor. Maecenas quam nunc, tincidunt quis
-              facilisis ut.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="flex flex-wrap mt-10 -mx-4">
-        <div class="px-4 py-2 lg:py-0 w-1/2 lg:w-1/6">
-          <div class="bg-white p-5 rounded-xl flex flex-col items-center">
-            <img src="/assets/company-logo.svg" alt="">
-            <span>
-              Company Name
-            </span>
-          </div>
-        </div>
-        <div class="px-4 py-2 lg:py-0 w-1/2 lg:w-1/6">
-          <div class="bg-white p-5 rounded-xl flex flex-col items-center">
-            <img src="/assets/company-logo.svg" alt="">
-            <span>
-              Company Name
-            </span>
-          </div>
-        </div>
-        <div class="px-4 py-2 lg:py-0 w-1/2 lg:w-1/6">
-          <div class="bg-white p-5 rounded-xl flex flex-col items-center">
-            <img src="/assets/company-logo.svg" alt="">
-            <span>
-              Company Name
-            </span>
-          </div>
-        </div>
-        <div class="px-4 py-2 lg:py-0 w-1/2 lg:w-1/6">
-          <div class="bg-white p-5 rounded-xl flex flex-col items-center">
-            <img src="/assets/company-logo.svg" alt="">
-            <span>
-              Company Name
-            </span>
-          </div>
-        </div>
-        <div class="px-4 py-2 lg:py-0 w-1/2 lg:w-1/6">
-          <div class="bg-white p-5 rounded-xl flex flex-col items-center">
-            <img src="/assets/company-logo.svg" alt="">
-            <span>
-              Company Name
-            </span>
-          </div>
-        </div>
-        <div class="px-4 py-2 lg:py-0 w-1/2 lg:w-1/6">
-          <div class="bg-white p-5 rounded-xl flex flex-col items-center">
-            <img src="/assets/company-logo.svg" alt="">
-            <span>
-              Company Name
-            </span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="bg-blue-custom py-20 text-white">
-    <div class="container px-4 lg:px-0 mx-auto">
-      <h2 class="text-3xl font-bold text-center mb-5">Why to choose us ?</h2>
-      <p class="text-center mb-14">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      </p>
-      <div class="flex flex-col lg:flex-row -mx-4">
-        <div class="w-full lg:w-1/3 py-4 lg:py-0 px-4">
-          <div class="bg-white text-blue-900 py-24 px-10 rounded-xl flex flex-col justify-center items-center">
-            <span class="text-yellow-500 text-7xl">
-              <i class="las la-tachometer-alt"></i>
-            </span>
-            <span class="font-bold text-2xl my-5">
-              Fast Response
-            </span>
-            <p class="leading-10 text-center">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec sagittis dolor. Maecenas quam nunc,
-              tincidunt quis facilisis ut.
-            </p>
-          </div>
-        </div>
-        <div class="w-full lg:w-1/3 py-4 lg:py-0 px-4">
-          <div class="bg-white text-blue-900 py-24 px-10 rounded-xl flex flex-col justify-center items-center">
-            <span class="text-yellow-500 text-7xl">
-              <i class="las la-server"></i>
-            </span>
-            <span class="font-bold text-2xl my-5">
-              Powerful Server
-            </span>
-            <p class="leading-10 text-center">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec sagittis dolor. Maecenas quam nunc,
-              tincidunt quis facilisis ut.
-            </p>
-          </div>
-        </div>
-        <div class="w-full lg:w-1/3 py-4 lg:py-0 px-4">
-          <div class="bg-white text-blue-900 py-24 px-10 rounded-xl flex flex-col justify-center items-center">
-            <span class="text-yellow-500 text-7xl">
-              <i class="las la-money-bill-wave-alt"></i>
-            </span>
-            <span class="font-bold text-2xl my-5">
-              Cheap
-            </span>
-            <p class="leading-10 text-center">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec sagittis dolor. Maecenas quam nunc,
-              tincidunt quis facilisis ut.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="py-20">
-    <div class="container px-4 lg:px-0 mx-auto">
-      <div class="flex flex-wrap items-center">
-        <div class="w-full lg:w-1/2 py-10 px-10">
-          <h3 class="font-bold text-3xl text-center">Level Up your web hosting with these must-have.</h3>
-        </div>
-        <div class="w-full lg:w-1/2  py-10 px-14 flex justify-center items-center">
-          <span class="text-8xl text-yellow-500 ">
-            <i class="las la-cog"></i>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+  </head>
+  <body>
+    <header class="pt-10 pb-36 bg-gradient-custom">
+      <div class="container mx-auto px-4 lg:px-0">
+        <nav class="flex justify-between">
+          <a href="/">
+            <img src="/assets/logo.svg" alt="Logo">
+          </a>
+          <input type="checkbox" id="menu-toggler" class="lg:hidden">
+          <span class="text-4xl lg:hidden" id="menu-bars" >
+            <i class="las la-bars bars"></i>
+            <i class="las la-times close hidden"></i>
           </span>
-          <div class="pl-10">
-            <span class="font-bold text-lg">
-              Data Safety
-            </span>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec sagittis dolor.
-            </p>
+          <div class="hidden lg:flex menu">
+            <a href="#" class="ml-4 text-3xl lg:text-base mb-6 lg:mb-0">Hosting</a>
+            <a href="#" class="ml-4 text-3xl lg:text-base mb-6 lg:mb-0">Domain</a>
+            <a href="#" class="ml-4 text-3xl lg:text-base mb-6 lg:mb-0">Support</a>
+            <a href="#" class="ml-4 text-3xl lg:text-base mb-6 lg:mb-0">Affilates</a>
+            <a href="#" class="ml-4 text-3xl lg:text-base mb-6 lg:mb-0">Partenership</a>
           </div>
-        </div>
-        <div class="w-full lg:w-1/2  py-10 px-14 flex justify-center items-center">
-          <span class="text-8xl text-yellow-500 ">
-            <i class="las la-shield-alt"></i>
-          </span>
-          <div class="pl-10">
-            <span class="font-bold text-lg">
-              Security
-            </span>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec sagittis dolor.
+        </nav>
+        <div class="mt-24 flex items-center ">
+          <div class="w-full lg:w-1/2">
+            <h1 class="text-4xl lg:text-5xl font-bold">Trust your site to the world's #1 web host</h1>
+            <p class="my-4">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis. 
             </p>
+            <a href="#" class="bg-yellow-600 btn">get started</a>
           </div>
-        </div>
-        <div class="w-full lg:w-1/2  py-10 px-14 flex justify-center items-center">
-          <span class="text-8xl text-yellow-500 ">
-            <i class="las la-tools"></i>
-          </span>
-          <div class="pl-10">
-            <span class="font-bold text-lg">
-              SEO Tools
-            </span>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec sagittis dolor.
-            </p>
+          <div class="hidden lg:flex w-1/2 flex justify-end ">
+            <img src="/assets/server.svg" alt="" class="hero__img hidden lg:flex">
           </div>
         </div>
       </div>
+    </header>
+    
+    <section class="bg-blue-100 py-24">
+      <div class="container mx-auto px-4 lg:px-0">
+        <h2 class="text-center font-bold text-2xl lg:text-3xl mb-16">More than +3500 Use our services</h2>
+        <div  class="flex flex-wrap -mx-4">
+          <div class="w-full lg:w-1/3 px-4">
+            <div class="bg-white my-4 lg:my-0 py-20 px-10 rounded-xl flex flex-col items-center ">
+              <img class="rounded-full mb-6" src="/assets/customers/man.svg" alt="">
+              <span class="font-bold text-blue-900 text-lg">John Doe</span>
+              <small class="text-gray-500">
+                Customer
+              </small>
+              <p class="text-center leading-10 mt-6">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                 Sed nec sagittis dolor. Maecenas quam nunc, 
+                 tincidunt quis facilisis ut.
+              </p>
+            </div>
+          </div>
+          <div class="w-full lg:w-1/3 px-4">
+            <div class="bg-white my-4 lg:my-0 py-20 px-10 rounded-xl flex flex-col items-center ">
+              <img class="rounded-full mb-6" src="/assets/customers/woman1.svg" alt="">
+              <span class="font-bold text-blue-900 text-lg">Erica Doe</span>
+              <small class="text-gray-500">
+                Customer
+              </small>
+              <p class="text-center leading-10 mt-6">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                 Sed nec sagittis dolor. Maecenas quam nunc, 
+                 tincidunt quis facilisis ut.
+              </p>
+            </div>
+          </div>
+          <div class="w-full lg:w-1/3 px-4">
+            <div class="bg-white my-4 lg:my-0 py-20 px-10 rounded-xl flex flex-col items-center ">
+              <img class="rounded-full mb-6" src="/assets/customers/woman2.svg" alt="">
+              <span class="font-bold text-blue-900 text-lg">Jane Doe</span>
+              <small class="text-gray-500">
+                Customer
+              </small>
+              <p class="text-center leading-10 mt-6">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                 Sed nec sagittis dolor. Maecenas quam nunc, 
+                 tincidunt quis facilisis ut.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-wrap my-10 -mx-4">
+          <div class="px-4 w-1/2 lg:w-1/6 my-4 lg:my-0">
+            <div class="bg-white rounded-xl px-6 py-4 flex flex-col items-center">
+              <img src="/assets/company-logo.svg" alt="">
+              <span class="mt-1">Company Name </span>
+            </div>
+          </div>
+          <div class="px-4 w-1/2 lg:w-1/6 my-4 lg:my-0">
+            <div class="bg-white rounded-xl px-6 py-4 flex flex-col items-center">
+              <img src="/assets/company-logo.svg" alt="">
+              <span class="mt-1">Company Name </span>
+            </div>
+          </div>
+          <div class="px-4 w-1/2 lg:w-1/6 my-4 lg:my-0">
+            <div class="bg-white rounded-xl px-6 py-4 flex flex-col items-center">
+              <img src="/assets/company-logo.svg" alt="">
+              <span class="mt-1">Company Name </span>
+            </div>
+          </div>
+          <div class="px-4 w-1/2 lg:w-1/6 my-4 lg:my-0">
+            <div class="bg-white rounded-xl px-6 py-4 flex flex-col items-center">
+              <img src="/assets/company-logo.svg" alt="">
+              <span class="mt-1">Company Name </span>
+            </div>
+          </div>
+          <div class="px-4 w-1/2 lg:w-1/6 my-4 lg:my-0">
+            <div class="bg-white rounded-xl px-6 py-4 flex flex-col items-center">
+              <img src="/assets/company-logo.svg" alt="">
+              <span class="mt-1">Company Name </span>
+            </div>
+          </div>
+          <div class="px-4 w-1/2 lg:w-1/6 my-4 lg:my-0">
+            <div class="bg-white rounded-xl px-6 py-4 flex flex-col items-center">
+              <img src="/assets/company-logo.svg" alt="">
+              <span class="mt-1">Company Name </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    </div>
-  </section>
+    <section class="bg-gradient-custom py-20">
+      <div class="container mx-auto px-4 lg:px-0">
+        <h3 class="font-bold text-center text-2xl lg:text-3xl mb-6">Why to choose us ?</h3>
+        <p class="text-center mb-10">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        </p>
+        <div class="flex flex-wrap -mx-4">
+          <div class="px-4 w-full lg:w-1/3 my-4 lg:my-0">
+            <div class="bg-white rounded-xl text-blue-900 flex flex-col items-center py-20 px-10">
+              <span class="text-7xl text-yellow-500"><i class="las la-tachometer-alt"></i></span>
+              <span class="font-bold text-2xl my-5">Fast Response</span>
+              <p class="text-center leading-10">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                 Sed nec sagittis dolor. Maecenas quam nunc, tincidunt 
+                 quis facilisis ut. 
+              </p>
+            </div>
+          </div>
+          <div class="px-4 w-full lg:w-1/3 my-4 lg:my-0">
+            <div class="bg-white rounded-xl text-blue-900 flex flex-col items-center py-20 px-10">
+              <span class="text-7xl text-yellow-500"><i class="las la-server"></i></span>
+              <span class="font-bold text-2xl my-5">Powerful Server</span>
+              <p class="text-center leading-10">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                 Sed nec sagittis dolor. Maecenas quam nunc, tincidunt 
+                 quis facilisis ut. 
+              </p>
+            </div>
+          </div>
+          <div class="px-4 w-full lg:w-1/3 my-4 lg:my-0">
+            <div class="bg-white rounded-xl text-blue-900 flex flex-col items-center py-20 px-10">
+              <span class="text-7xl text-yellow-500"><i class="las la-money-bill-wave-alt"></i></span>
+              <span class="font-bold text-2xl my-5">Cheap</span>
+              <p class="text-center leading-10">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                 Sed nec sagittis dolor. Maecenas quam nunc, tincidunt 
+                 quis facilisis ut. 
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="py-20">
+      <div class="container mx-auto px-4 lg:px-0">
+        <div class="flex items-center flex-wrap -mx-4">
+          <div class="w-full lg:w-1/2 ox-6 lg:px-14 py-10">
+            <span class="text-center text-2xl lg:text-3xl font-bold inline-flex w-full justify-center">
+              Level Up your web hosting with these must-have.
+            </span>
+          </div>
+          <div class="w-full lg:w-1/2 px-6 lg:px-14 py-10 flex flex-col md:flex-row items-center">
+            <div class="md:mr-10">
+              <span class="text-8xl text-yellow-500 mb-6 md:mb-0 inline-block">
+                <i class="las la-cog"></i>
+              </span>
+            </div>
+            <div>
+              <span class="font-bold text-lg">Data Safety </span>
+              <p>Lorem ipsum dolor sit amet, consectetur 
+                adipiscing elit. Sed nec sagittis dolor. 
+              </p>
+            </div>
+          </div>
+          <div class="w-full lg:w-1/2 px-6 lg:px-14 py-10 flex flex-col md:flex-row items-center">
+            <div class="md:mr-10">
+              <span class="text-8xl text-yellow-500 mb-6 md:mb-0 inline-block">
+                <i class="las la-shield-alt"></i>
+              </span>
+            </div>
+            <div>
+              <span class="font-bold text-lg">Security</span>
+              <p>Lorem ipsum dolor sit amet, consectetur 
+                adipiscing elit. Sed nec sagittis dolor. 
+              </p>
+            </div>
+          </div>
+          <div class="w-full lg:w-1/2 px-6 lg:px-14 py-10 flex flex-col md:flex-row items-center">
+            <div class="md:mr-10">
+              <span class="text-8xl text-yellow-500 mb-6 md:mb-0 inline-block">
+                <i class="las la-tools"></i>
+              </span>
+            </div>
+            <div>
+              <span class="font-bold text-lg">SEO Tools</span>
+              <p>Lorem ipsum dolor sit amet, consectetur 
+                adipiscing elit. Sed nec sagittis dolor. 
+              </p>
+            </div>
+          </div>
+        </div>
+       
+      </div>
+    </section>
 
-  <section class="bg-blue-custom py-20">
-    <div class="container px-4 lg:px-0 mx-auto text-white">
-      <h3 class="font-bold text-3xl text-center mb-14">So what's in Shared Hosting? A whole lot.</h3>
-      <div class="flex flex-col lg:flex-row items-center justify-center">
-        <div class="pricing-card bg-white  flex flex-col w-full lg:w-1/3 items-center justify-between
-            py-20 rounded-tl-xl rounded-tr-xl lg:rounded-tr-none lg:rounded-bl-xl 
+    <section class="py-20 bg-gradient-custom">
+      <div class="container mx-auto px-4 lg:px-0">
+        <h3 class="text-center text-2xl lg:text-3xl font-bold mb-6">So what's in Shared Hosting? A whole lot.</h3>
+        <div class="flex flex-wrap items-center">
+          <div class="w-full lg:w-1/3 bg-white text-blue-900 rounded-tl-xl rounded-tr-xl lg:rounded-tr-none rounded-bl-none lg:rounded-bl-xl pricing-card
+            flex flex-col items-center justify-around py-10
           ">
-          <div class="flex flex-col items-center">
-            <span class="font-bold text-xl">Starter Package</span>
-            <span class="text-md">Blogging Website</span>
+            <div class="flex flex-col items-center">
+               <span class="text-xl font-bold">Starter Package</span>
+              <span>Blogging Website</span>
+            </div>
+            <span class="text-3xl font-bold">$3 / month</span>
+            <a href="#" class="btn border border-blue-900">Buy now</a>
           </div>
-
-          <p class="font-bold text-3xl">
-            $3 / month
-          </p>
-          <a href="#" class="btn btn-white">Buy now</a>
-        </div>
-        <div class="pricing-card--main  flex flex-col w-full lg:w-1/3 items-center justify-between
-            py-20 bg-yellow-600 
+          <div class="w-full lg:w-1/3 bg-yellow-600 pricing-card-main
+            flex flex-col items-center justify-around py-10
+            flex-wrap
           ">
-          <div class="flex flex-col items-center">
-            <span class="font-bold text-xl">Starter Package</span>
-            <span class="text-md">Blogging Website</span>
-          </div>
-
-          <p class="font-bold text-3xl">
-            $3 / month
-          </p>
+            <div class="flex flex-col items-center">
+              <span class="text-xl font-bold">Starter Package</span>
+              <span>Blogging Website</span>
+            </div>
+          <span class="text-3xl font-bold">$3 / month</span>
           <a href="#" class="btn border border-white">Buy now</a>
         </div>
-        <div class="pricing-card flex flex-col w-full lg:w-1/3 items-center justify-between
-            bg-white py-20 rounded-bl-xl rounded-br-xl lg:rounded-bl-none lg:rounded-tr-xl lg:rounded-br-xl 
+          <div class="w-full lg:w-1/3 bg-white text-blue-900 
+            lg:rounded-tr-xl rounded-br-xl 
+            rounded-tr-none rounded-bl-xl lg:rounded-bl-none
+            pricing-card
+            flex flex-col items-center justify-around py-10
           ">
-          <div class="flex flex-col items-center">
-            <span class="font-bold text-xl">Starter Package</span>
-            <span class="text-md">Blogging Website</span>
+            <div class="flex flex-col items-center">
+              <span class="text-xl font-bold">Starter Package</span>
+              <span>Blogging Website</span>
+            </div>
+            <span class="text-3xl font-bold">$3 / month</span>
+            <a href="#" class="btn border border-blue-900">Buy now</a>
           </div>
-
-          <p class="font-bold text-3xl">
-            $3 / month
-          </p>
-          <a href="#" class="btn btn-white">Buy now</a>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="py-28">
-    <div class="container px-4 lg:px-0 mx-auto">
-      <h3 class="font-bold text-4xl text-center mb-6">Hosting from Another world</h3>
-      <p class="w-1/2 mx-auto text-center text-lg">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec sagittis dolor. Maecenas quam nunc, tincidunt quis facilisis ut, faucibus eget 
-      </p>
-      <div class="flex flex-col lg:flex-row  lg:justify-center lg:items-center py-8">
-        <div class="px-0 lg:px-14">
-          <ul>
-            <li class="text-2xl pb-4">
-              <i class="lar la-check-circle text-blue-500"></i>
-              
-              <span>
-                Website Builder
-              </span>
-            </li>
-            <li class="text-2xl pb-4">
-              <i class="lar la-check-circle text-blue-500"></i>
-              <span>
-                WP Accelerator
-              </span>
-            </li>
-            <li class="text-2xl ">
-              <i class="lar la-check-circle text-blue-500"></i>
-              <span>
-                24/7 Support
-              </span>
-            </li>
-          </ul>
-        </div>
-        <div class="px-0 lg:px-14 mt-5 lg:mt-0">
-          <ul>
-            <li class="text-2xl  pb-4">
-              <i class="lar la-check-circle text-blue-500"></i>
-              <span>
-                Free Domain and SSL
-              </span>
-            </li>
-            <li class="text-2xl  pb-4">
-              <i class="lar la-check-circle text-blue-500"></i>
-              <span>
-                Auto Installer
-              </span>
-            </li>
-            <li class="text-2xl">
-              <i class="lar la-check-circle text-blue-500"></i>
-              <span>
-                DDoS and Malware
-              </span>
-            </li>
-          </ul>
-        </div>
-        <div  class="px-10 hidden lg:flex">
-          <img src="/assets/data-host.svg" alt="">
+    <section class="py-20">
+      <div class="container mx-auto px-4 lg:px-0">
+        <h3 class="font-bold text-center text-2xl lg:text-3xl mb-6">Hosting from Another world</h3>
+        <p class="w-full lg:w-1/2 mx-auto text-center text-lg mb-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec sagittis dolor. Maecenas quam nunc, tincidunt quis facilisis ut, faucibus eget </p>
+        <div class="flex flex-wrap items-start lg:items-center ">
+          <div class="px-0 lg:px-10 w-full lg:w-1/3 flex justify-start lg:justify-center">
+            <ul>
+              <li class="text-2xl mb-4">
+                <i class="las la-check-circle text-blue-500"></i>
+                <span>Website Builder</span>
+              </li>
+              <li class="text-2xl mb-4">
+                <i class="las la-check-circle text-blue-500"></i>
+                <span>WP Accelerator</span>
+              </li>
+              <li class="text-2xl mb-4">
+                <i class="las la-check-circle text-blue-500"></i>
+                <span> 24/7 Support </span>
+              </li>
+            </ul>
+          </div>
+          <div class="px-0 lg:px-10 w-full lg:w-1/3 flex justify-start lg:justify-center">
+            <ul>
+              <li class="text-2xl mb-4">
+                <i class="las la-check-circle text-blue-500"></i>
+                <span>Free Domain and SSL </span>
+              </li>
+              <li class="text-2xl mb-4">
+                <i class="las la-check-circle text-blue-500"></i>
+                <span>Auto Installer</span>
+              </li>
+              <li class="text-2xl">
+                <i class="las la-check-circle text-blue-500"></i>
+                <span> DDoS and Malware  </span>
+              </li>
+            </ul>
+          </div>
+          <div class="px-10 w-1/3 justify-center hidden lg:flex">
+            <img src="/assets/data-host.svg" alt="">
+          </div>
         </div>
       </div>
-    </div>
-    
-  </section>
+    </section>
 
-  <footer class="py-20 text-gray-400">
-    <div class="container px-4 lg:px-0 mx-auto flex flex-col">
-      <div class="flex flex-col lg:flex-row">
-        <div class="w-full lg:w-1/3 ">
-          <a href="/" class="inline-flex mb-10">
-            <img src="/assets/logo.svg" alt="">
-          </a>
-          <p class="leading-10 mb-5">
-            I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper matti pibus leo.
-          </p>
+    <footer class="py-20 text-gray-400">
+      <div class="container mx-auto px-4 lg:px-0">
+        <div class="flex flex-wrap -mx-4">
+          <div class="pl-0 lg:pl-4 w-full lg:w-1/3">
+            <a href="/" class="mb-10 inline-flex">
+              <img src="/assets/logo.svg" alt="Logo">
+            </a>
+            <p class="leading-10 mb-5">
+              I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper matti pibus leo. 
+            </p>
+            <div>
+              <a href="#"><i class="lab la-facebook-f"></i></a>
+              <a href="#"><i class="lab la-twitter"></i></a>
+              <a href="#"><i class="lab la-pinterest"></i></a>
+            </div>
+            
+          </div>
+          <div class="w-full lg:w-2/3 flex flex-wrap mt-10 lg:mt-0 pl-0 lg:pl-16 pr-4">
+            <div class="w-full lg:w-1/3">
+              <span class="font-bold text-lg text-white mb-7 inline-block">Get Started </span>
+              <ul>
+                <li class="mb-7"><a href="#">Tutorials</a></li>
+                <li class="mb-7"><a href="#">Resources</a></li>
+                <li><a href="#">Guides</a></li>
+              </ul>
+            </div>
+            <div class="w-full lg:w-1/3">
+              <span class="font-bold text-lg text-white mb-7 inline-block">Get Started </span>
+              <ul>
+                <li class="mb-7"><a href="#">Tutorials</a></li>
+                <li class="mb-7"><a href="#">Resources</a></li>
+                <li><a href="#">Guides</a></li>
+              </ul>
+            </div>
+            <div class="w-full lg:w-1/3">
+              <span class="font-bold text-lg text-white mb-7 inline-block">Get Started </span>
+              <ul>
+                <li class="mb-7"><a href="#">Tutorials</a></li>
+                <li class="mb-7"><a href="#">Resources</a></li>
+                <li><a href="#">Guides</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col md:flex-row justify-between mt-10">
           <span>
-            <a href="#"> <i class="lab la-facebook-f"></i></a>
-            <a href="#"> <i class="lab la-twitter"></i></a>
-            <a href="#"> <i class="lab la-pinterest"></i></a>
+            &copy; All rights reserved
           </span>
-        </div>
-        <div class="w-2/3 flex flex-col lg:flex-row mt-10 lg:mt-0">
-          <div class="w-full lg:w-1/3">
-            <div class="lg:pl-14">
-              <span class="inline-flex text-white font-bold mb-8 text-lg">
-                Get Started
-              </span>
-              <ul>
-                <li class="mb-7">Tutorials</li>
-                <li class="mb-7">Resources</li>
-                <li>Guides</li>
-              </ul>
-            </div>
-            
-          </div>
-          <div class="w-full lg:w-1/3">
-            <div class="lg:pl-14">
-              <span class="inline-flex text-white font-bold mb-8 text-lg">
-                Get Started
-              </span>
-              <ul>
-                <li class="mb-7">Tutorials</li>
-                <li class="mb-7">Resources</li>
-                <li>Guides</li>
-              </ul>
-            </div>
-            
-          </div>
-          <div class="w-full lg:w-1/3">
-            <div class="lg:pl-14">
-              <span class="inline-flex text-white font-bold mb-8 text-lg">
-                Get Started
-              </span>
-              <ul>
-                <li class="mb-8">Tutorials</li>
-                <li class="mb-8">Resources</li>
-                <li>Guides</li>
-              </ul>
-            </div>
-            
-          </div>
+          <span>Made with love by Ridho Tijan</span>
         </div>
       </div>
-    
-      <div class="flex flex-col lg:flex-row justify-between items-center mt-10">
-        <span>&copy; All rights reserved</span>
-        <span>Made with love by Ridho Tijan</span>
-      </div>
-    </div>
-    
-  </footer>
-  
-  <script type="module" src="/main.js"></script>
-</body>
+    </footer>
 
+    <script type="module" src="/main.js"></script>
+  </body>
 </html>

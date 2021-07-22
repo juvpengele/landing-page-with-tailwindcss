@@ -1,0 +1,481 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20210721.125822.108326.0.001.json",
+    "dumpEventTime": "2021-07-21T12:58:22Z",
+    "dumpEventTimeStamp": "1626872302884",
+    "processId": 108326,
+    "cwd": "/home/juvenal/Lab/Dev/TailwindCSS/landing-page",
+    "commandLine": [
+      "/home/juvenal/.nvm/versions/node/v12.14.1/bin/node",
+      "/home/juvenal/Lab/Dev/TailwindCSS/landing-page/node_modules/.bin/vite"
+    ],
+    "nodejsVersion": "v12.14.1",
+    "glibcVersionRuntime": "2.32",
+    "glibcVersionCompiler": "2.17",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "linux",
+    "componentVersions": {
+      "node": "12.14.1",
+      "v8": "7.7.299.13-node.16",
+      "uv": "1.33.1",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.40.0",
+      "napi": "5",
+      "llhttp": "2.0.1",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.14.1/node-v12.14.1-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.14.1/node-v12.14.1.tar.gz"
+    },
+    "osName": "Linux",
+    "osRelease": "5.8.0-59-generic",
+    "osVersion": "#66-Ubuntu SMP Thu Jun 17 00:46:01 UTC 2021",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "AMD Ryzen 7 4700U with Radeon Graphics",
+        "speed": 1651,
+        "user": 61605300,
+        "nice": 9586200,
+        "sys": 33349400,
+        "idle": 897451200,
+        "irq": 0
+      },
+      {
+        "model": "AMD Ryzen 7 4700U with Radeon Graphics",
+        "speed": 1530,
+        "user": 63353300,
+        "nice": 9591400,
+        "sys": 34960500,
+        "idle": 894393900,
+        "irq": 0
+      },
+      {
+        "model": "AMD Ryzen 7 4700U with Radeon Graphics",
+        "speed": 1627,
+        "user": 61075000,
+        "nice": 8883200,
+        "sys": 32439000,
+        "idle": 900153300,
+        "irq": 0
+      },
+      {
+        "model": "AMD Ryzen 7 4700U with Radeon Graphics",
+        "speed": 2195,
+        "user": 57000500,
+        "nice": 7433800,
+        "sys": 34050600,
+        "idle": 899640400,
+        "irq": 0
+      },
+      {
+        "model": "AMD Ryzen 7 4700U with Radeon Graphics",
+        "speed": 1792,
+        "user": 52187600,
+        "nice": 2974000,
+        "sys": 29019400,
+        "idle": 919222100,
+        "irq": 0
+      },
+      {
+        "model": "AMD Ryzen 7 4700U with Radeon Graphics",
+        "speed": 1533,
+        "user": 52272900,
+        "nice": 2764000,
+        "sys": 29032600,
+        "idle": 920120000,
+        "irq": 0
+      },
+      {
+        "model": "AMD Ryzen 7 4700U with Radeon Graphics",
+        "speed": 1457,
+        "user": 52200900,
+        "nice": 4116800,
+        "sys": 27849200,
+        "idle": 911536000,
+        "irq": 0
+      },
+      {
+        "model": "AMD Ryzen 7 4700U with Radeon Graphics",
+        "speed": 1319,
+        "user": 52947400,
+        "nice": 2670400,
+        "sys": 28293800,
+        "idle": 920471700,
+        "irq": 0
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "lo",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "wlp1s0",
+        "internal": false,
+        "mac": "68:54:5a:cc:56:c3",
+        "address": "192.168.1.164",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "lo",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "wlp1s0",
+        "internal": false,
+        "mac": "68:54:5a:cc:56:c3",
+        "address": "fde4:fda1:9cbd:ad00:513f:bec6:66c:34f9",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "wlp1s0",
+        "internal": false,
+        "mac": "68:54:5a:cc:56:c3",
+        "address": "fde4:fda1:9cbd:ad00:1d18:6498:5a7a:3f9a",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "wlp1s0",
+        "internal": false,
+        "mac": "68:54:5a:cc:56:c3",
+        "address": "fe80::ad40:faea:8d8:39f",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 2
+      }
+    ],
+    "host": "juvenal"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x0000000000b05ba5",
+      "symbol": "report::TriggerNodeReport(v8::Isolate*, node::Environment*, char const*, char const*, std::string const&, v8::Local<v8::String>) [/home/juvenal/.nvm/versions/node/v12.14.1/bin/node]"
+    },
+    {
+      "pc": "0x00000000009dbd93",
+      "symbol": "node::OnFatalError(char const*, char const*) [/home/juvenal/.nvm/versions/node/v12.14.1/bin/node]"
+    },
+    {
+      "pc": "0x0000000000b3b18e",
+      "symbol": "v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, bool) [/home/juvenal/.nvm/versions/node/v12.14.1/bin/node]"
+    },
+    {
+      "pc": "0x0000000000b3b509",
+      "symbol": "v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, bool) [/home/juvenal/.nvm/versions/node/v12.14.1/bin/node]"
+    },
+    {
+      "pc": "0x0000000000ce68a5",
+      "symbol": " [/home/juvenal/.nvm/versions/node/v12.14.1/bin/node]"
+    },
+    {
+      "pc": "0x0000000000ce6f36",
+      "symbol": "v8::internal::Heap::RecomputeLimits(v8::internal::GarbageCollector) [/home/juvenal/.nvm/versions/node/v12.14.1/bin/node]"
+    },
+    {
+      "pc": "0x0000000000cf2dca",
+      "symbol": "v8::internal::Heap::PerformGarbageCollection(v8::internal::GarbageCollector, v8::GCCallbackFlags) [/home/juvenal/.nvm/versions/node/v12.14.1/bin/node]"
+    },
+    {
+      "pc": "0x0000000000cf3cd5",
+      "symbol": "v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [/home/juvenal/.nvm/versions/node/v12.14.1/bin/node]"
+    },
+    {
+      "pc": "0x0000000000cf66e8",
+      "symbol": "v8::internal::Heap::AllocateRawWithRetryOrFail(int, v8::internal::AllocationType, v8::internal::AllocationAlignment) [/home/juvenal/.nvm/versions/node/v12.14.1/bin/node]"
+    },
+    {
+      "pc": "0x0000000000cbd017",
+      "symbol": "v8::internal::Factory::NewFillerObject(int, bool, v8::internal::AllocationType) [/home/juvenal/.nvm/versions/node/v12.14.1/bin/node]"
+    },
+    {
+      "pc": "0x0000000000ff307b",
+      "symbol": "v8::internal::Runtime_AllocateInYoungGeneration(int, unsigned long*, v8::internal::Isolate*) [/home/juvenal/.nvm/versions/node/v12.14.1/bin/node]"
+    },
+    {
+      "pc": "0x0000000001376259",
+      "symbol": " [/home/juvenal/.nvm/versions/node/v12.14.1/bin/node]"
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2182959104,
+    "totalCommittedMemory": 2172981760,
+    "usedMemory": 2109616984,
+    "availableMemory": 60109960,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 32568,
+        "capacity": 261872,
+        "used": 32296,
+        "available": 229576
+      },
+      "new_space": {
+        "memorySize": 33554432,
+        "committedMemory": 24125360,
+        "capacity": 16759808,
+        "used": 5691472,
+        "available": 11068336
+      },
+      "old_space": {
+        "memorySize": 2092806144,
+        "committedMemory": 2092738120,
+        "capacity": 2067035488,
+        "used": 2049839440,
+        "available": 17196048
+      },
+      "code_space": {
+        "memorySize": 1474560,
+        "committedMemory": 1388064,
+        "capacity": 1092928,
+        "used": 1092928,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 2887680,
+        "committedMemory": 2723504,
+        "capacity": 1083200,
+        "used": 1083200,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 51924992,
+        "committedMemory": 51924992,
+        "capacity": 51874096,
+        "used": 51874096,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 3552,
+        "used": 3552,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 16759808,
+        "used": 0,
+        "available": 16759808
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 340.789,
+    "kernelCpuSeconds": 12.1973,
+    "cpuConsumptionPercent": 3.13515,
+    "maxRss": 2277834752,
+    "pageFaults": {
+      "IORequired": 684,
+      "IONotRequired": 2285836
+    },
+    "fsActivity": {
+      "reads": 75480,
+      "writes": 24
+    }
+  },
+  "uvthreadResourceUsage": {
+    "userCpuSeconds": 172.581,
+    "kernelCpuSeconds": 7.45415,
+    "cpuConsumptionPercent": 1.59903,
+    "fsActivity": {
+      "reads": 64704,
+      "writes": 24
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "PROFILEHOME": "",
+    "LESSOPEN": "| /usr/bin/lesspipe %s",
+    "KDE_FULL_SESSION": "true",
+    "LANGUAGE": "",
+    "USER": "juvenal",
+    "PAM_KWALLET5_LOGIN": "/run/user/1000/kwallet5.socket",
+    "npm_config_version_commit_hooks": "true",
+    "npm_config_user_agent": "yarn/1.22.10 npm/? node/v12.14.1 linux x64",
+    "XDG_SEAT": "seat0",
+    "STARSHIP_SHELL": "bash",
+    "npm_config_bin_links": "true",
+    "SSH_AGENT_PID": "1486",
+    "XDG_SESSION_TYPE": "x11",
+    "npm_node_execpath": "/home/juvenal/.nvm/versions/node/v12.14.1/bin/node",
+    "npm_package_devDependencies_vite": "^2.4.2",
+    "npm_config_init_version": "1.0.0",
+    "XCURSOR_SIZE": "24",
+    "KONSOLE_VERSION": "200802",
+    "SHLVL": "1",
+    "QT4_IM_MODULE": "ibus",
+    "HOME": "/home/juvenal",
+    "KDE_APPLICATIONS_AS_SCOPE": "1",
+    "OLDPWD": "/home/juvenal/Lab/Dev/TailwindCSS",
+    "DESKTOP_SESSION": "plasma",
+    "NVM_BIN": "/home/juvenal/.nvm/versions/node/v12.14.1/bin",
+    "npm_config_init_license": "MIT",
+    "SHELL_SESSION_ID": "fd221822f53044d5ae2bc503438fc5c1",
+    "GTK_RC_FILES": "/etc/gtk/gtkrc:/home/juvenal/.gtkrc:/home/juvenal/.config/gtkrc",
+    "XDG_SEAT_PATH": "/org/freedesktop/DisplayManager/Seat0",
+    "KDE_SESSION_VERSION": "5",
+    "YARN_WRAP_OUTPUT": "false",
+    "npm_config_version_tag_prefix": "v",
+    "PS1": "\n\\[\u001b[1;36m\\]Dev/TailwindCSS/landing-page\\[\u001b[0m\\] is \\[\u001b[1;38;5;208m\\]📦 \\[\u001b[0m\\]\\[\u001b[1;38;5;208m\\]v0.0.0\\[\u001b[0m\\] via \\[\u001b[1;32m\\] \\[\u001b[0m\\]\\[\u001b[1;32m\\]v12.14.1\\[\u001b[0m\\]\\[\u001b[1;32m\\] \\[\u001b[0m\\]\n\\[\u001b[1;32m\\]❯\\[\u001b[0m\\] ",
+    "KONSOLE_DBUS_SESSION": "/Sessions/1",
+    "npm_package_scripts_serve": "vite preview",
+    "DBUS_SESSION_BUS_ADDRESS": "unix:path=/run/user/1000/bus",
+    "COLORTERM": "truecolor",
+    "KONSOLE_DBUS_WINDOW": "/Windows/1",
+    "npm_package_devDependencies_tailwindcss": "^2.2.4",
+    "NVM_DIR": "/home/juvenal/.nvm",
+    "MANDATORY_PATH": "/usr/share/gconf/plasma.mandatory.path",
+    "npm_package_scripts_dev": "vite",
+    "GTK_IM_MODULE": "ibus",
+    "LOGNAME": "juvenal",
+    "WINDOWID": "54525959",
+    "QT_AUTO_SCREEN_SCALE_FACTOR": "0",
+    "_": "/home/juvenal/.nvm/versions/node/v12.14.1/bin/yarn",
+    "npm_package_devDependencies_autoprefixer": "^10.3.1",
+    "XDG_SESSION_CLASS": "user",
+    "DEFAULTS_PATH": "/usr/share/gconf/plasma.default.path",
+    "COLORFGBG": "15;0",
+    "npm_config_registry": "https://registry.yarnpkg.com",
+    "TERM": "xterm-256color",
+    "XDG_SESSION_ID": "3",
+    "npm_config_ignore_scripts": "",
+    "GTK2_RC_FILES": "/etc/gtk-2.0/gtkrc:/home/juvenal/.gtkrc-2.0:/home/juvenal/.config/gtkrc-2.0",
+    "PATH": "/tmp/yarn--1626861043027-0.26227695412396623:/home/juvenal/Lab/Dev/TailwindCSS/landing-page/node_modules/.bin:/home/juvenal/.config/yarn/link/node_modules/.bin:/home/juvenal/.yarn/bin:/home/juvenal/.nvm/versions/node/v12.14.1/libexec/lib/node_modules/npm/bin/node-gyp-bin:/home/juvenal/.nvm/versions/node/v12.14.1/lib/node_modules/npm/bin/node-gyp-bin:/home/juvenal/.nvm/versions/node/v12.14.1/bin/node_modules/npm/bin/node-gyp-bin:/home/juvenal/.nvm/versions/node/v12.14.1/bin:/home/juvenal/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/gradle/gradle-6.8.3/bin",
+    "NODE": "/home/juvenal/.nvm/versions/node/v12.14.1/bin/node",
+    "SESSION_MANAGER": "local/juvenal:@/tmp/.ICE-unix/1718,unix/juvenal:/tmp/.ICE-unix/1718",
+    "npm_package_name": "landing-page",
+    "XDG_SESSION_PATH": "/org/freedesktop/DisplayManager/Session1",
+    "XDG_RUNTIME_DIR": "/run/user/1000",
+    "XCURSOR_THEME": "breeze_cursors",
+    "DISPLAY": ":0",
+    "LANG": "fr_FR.UTF-8",
+    "XDG_CURRENT_DESKTOP": "KDE",
+    "XMODIFIERS": "@im=ibus",
+    "XDG_SESSION_DESKTOP": "KDE",
+    "XAUTHORITY": "/home/juvenal/.Xauthority",
+    "LS_COLORS": "rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:",
+    "npm_lifecycle_script": "vite",
+    "SSH_AUTH_SOCK": "/tmp/ssh-mMQwchtoknsp/agent.1429",
+    "npm_config_version_git_message": "v%s",
+    "SHELL": "/bin/bash",
+    "npm_lifecycle_event": "dev",
+    "npm_package_version": "0.0.0",
+    "QT_ACCESSIBILITY": "1",
+    "npm_config_argv": "{\"remain\":[],\"cooked\":[\"run\",\"dev\"],\"original\":[\"dev\"]}",
+    "npm_package_scripts_build": "vite build",
+    "LESSCLOSE": "/usr/bin/lesspipe %s %s",
+    "KONSOLE_DBUS_SERVICE": ":1.277",
+    "npm_config_version_git_tag": "true",
+    "npm_config_version_git_sign": "",
+    "GPG_AGENT_INFO": "/run/user/1000/gnupg/S.gpg-agent:0:1",
+    "ANDROID_SDK_ROOT": "/home/juvenal/Android/Sdk",
+    "npm_config_strict_ssl": "true",
+    "QT_IM_MODULE": "ibus",
+    "XDG_VTNR": "1",
+    "PWD": "/home/juvenal/Lab/Dev/TailwindCSS/landing-page",
+    "npm_execpath": "/home/juvenal/.nvm/versions/node/v12.14.1/lib/node_modules/yarn/bin/yarn.js",
+    "XDG_CONFIG_DIRS": "/etc/xdg/xdg-plasma:/etc/xdg:/usr/share/kubuntu-default-settings/kf5-settings",
+    "CLUTTER_IM_MODULE": "ibus",
+    "NVM_CD_FLAGS": "",
+    "XDG_DATA_DIRS": "/usr/share/plasma:/usr/local/share:/usr/share:/var/lib/snapd/desktop",
+    "STARSHIP_SESSION_KEY": "5318201895602109",
+    "npm_package_devDependencies_postcss": "^8.3.5",
+    "npm_config_save_prefix": "^",
+    "npm_config_ignore_optional": "",
+    "KDE_SESSION_UID": "1000",
+    "INIT_CWD": "/home/juvenal/Lab/Dev/TailwindCSS/landing-page",
+    "NODE_ENV": "development"
+  },
+  "userLimits": {
+    "core_file_size_blocks": {
+      "soft": 0,
+      "hard": "unlimited"
+    },
+    "data_seg_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "file_size_blocks": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_locked_memory_bytes": {
+      "soft": 2030033920,
+      "hard": 2030033920
+    },
+    "max_memory_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "open_files": {
+      "soft": 1048576,
+      "hard": 1048576
+    },
+    "stack_size_bytes": {
+      "soft": 8388608,
+      "hard": "unlimited"
+    },
+    "cpu_time_seconds": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_user_processes": {
+      "soft": 61326,
+      "hard": 61326
+    },
+    "virtual_memory_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    }
+  },
+  "sharedObjects": [
+    "linux-vdso.so.1",
+    "/lib/x86_64-linux-gnu/libdl.so.2",
+    "/lib/x86_64-linux-gnu/libstdc++.so.6",
+    "/lib/x86_64-linux-gnu/libm.so.6",
+    "/lib/x86_64-linux-gnu/libgcc_s.so.1",
+    "/lib/x86_64-linux-gnu/libpthread.so.0",
+    "/lib/x86_64-linux-gnu/libc.so.6",
+    "/lib64/ld-linux-x86-64.so.2"
+  ]
+}
